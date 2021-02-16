@@ -4,7 +4,7 @@ using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
 
 namespace SlimeStrap.Mixins {
-	[Mixin("GameContext")]
+	[Mixin("GameContext,Assembly_CSharp")]
 	public abstract class GameContextMixin {
 		[Inject(At = AtLocation.Head, Method = "Awake")]
 		private void OnAwake() {
