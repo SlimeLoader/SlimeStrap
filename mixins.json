@@ -1,0 +1,9 @@
+﻿{
+	"namespace": "SlimeStrap.Mixins",
+	"targets": [
+		"Assembly-CSharp.dll"
+	],
+	"mixins": [
+		"GameContextMixin"
+	]
+}
